@@ -1,0 +1,39 @@
+body,html,*{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.card{
+    width: 28%;
+    height: 50vh;
+    background-color: rgba(65,65,78,.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5rem 0;
+
+}
+
+.card-Title{
+    margin-top: 2rem;
+}
+.card-Price{
+    font-size: 1.2rem;
+}
+.card-Image{
+    width: 100%;
+}
+.container{
+    margin: 1rem , auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-around;
+
+}
