@@ -1,32 +1,47 @@
+
+
+
 body,html,*{
     font-size: 10px;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
 
 }
 
 .card-Title{
-    margin-top: 2rem;
+    margin-top: 30px;
 }
 .card-Price{
     font-size: 1.2rem;
 }
 .card-Image{
     width: 100%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.Card-Image2{
+    width: 85%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.Card-Image3{
+    height: 70%;
+    width: 100%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 
-
 .card{
-    width: 28%;
-    height: 50vh;
+    width: 24%;
+    height: 46vh;
     background-color: rgba(65,65,78,.3);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 2.5rem 0;
+    box-shadow: 10px 8px 0px rgb(9, 54, 109);
 
 }
 
@@ -40,3 +55,10 @@ body,html,*{
     justify-content: space-around;
     
 }
+
+
+
+
+
+
+
