@@ -1,6 +1,44 @@
+.container{
+    margin: 1rem , auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 
-
-
+.container {
+    background-size: 800% 800%;
+    background-image: linear-gradient(-45deg, yellow 0%, yellow 25%, yellow 51%, #ff357f 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+            animation: AnimateBG 20s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
 body,html,*{
     font-size: 10px;
     box-sizing: border-box;
@@ -45,16 +83,7 @@ body,html,*{
 
 }
 
-.container{
-    margin: 1rem , auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    background-color: #9e1818;
-    align-items: center;
-    justify-content: space-around;
-    
-}
+
 
 
 
