@@ -5,15 +5,27 @@
     width: 100vw;
     align-items: center;
     justify-content: space-around;
+    background-color:#053df7;
+    animation-name: poo;
+    animation-duration: 0.8s
     
 }
 
+
+@keyframes poo {
+    0%   {background-color: #053df7;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
 body,html,*{
-    font-size: 10px;
+    font-size: 50px;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: 'Noto Sans JP', sans-serif;
+   
 
 }
 
@@ -28,12 +40,12 @@ body,html,*{
     
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-.Card-Image2{
-    width: auto;
+
+.Card-Image2 {
+    width: 1000;
     height: auto;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-
 .Card-Image3{
     height: 70%;
     width: 100%;
@@ -62,10 +74,13 @@ body,html,*{
 .card:hover{
   background-color: #05f755;
   transform: scale(1.12);
+
   box-shadow:
     0 0 60px 10px  #9dfd02,
     0 0 100px 20px rgb(98, 199, 16),
     0 0 140px 30px rgb(90, 160, 10);
+
+
  /*0 x-offeset , 0 y-offset , then the blur size of the shadow box and then thespread size of the sh*/
 }
 
